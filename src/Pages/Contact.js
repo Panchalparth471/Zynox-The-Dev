@@ -90,7 +90,7 @@ function Contact() {
                  <input name="subject" onChange={changeHandler} value={formData.subject} id="subject" className="flex w-[60%] max-sm:w-[90%] h-[40px] pl-6 rounded-md outline-none" required type="text" placeholder="Subject"></input><br/>
                 <textarea onChange={changeHandler} name="message" id="message" value={formData.message} className="flex w-[60%] max-sm:w-[90%] h-[150px] pl-6 pt-2 resize-none rounded-md outline-none text-base" placeholder="Enter your message"></textarea><br />
                  </div>   <div className="flex mx-auto">
-                    <div ref={ref} data-aos="fade-up"
+                    <div data-aos="fade-up"
                     data-aos-easing="ease-in-sine" className="place-content-center place-items-center max-sm:pb-7">
                     <button className="flex max-sm:w-[250px] justify-center  gap-x-4 items-center w-[300px] h-[45px] rounded-[30px] max-sm:text-xl max-sm:h-[30px] text-black bg-[#10B67A] text-2xl font-normal hover:bg-white shadow-lg shadow-emerald-400 hover:scale-110 duration-300 transition ease-in-out " >
 
