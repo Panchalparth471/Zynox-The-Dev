@@ -44,7 +44,7 @@ function Body() {
             words={['FullStack Developer', 'UI/UX Designer', 'C/C++ Programmer', 'BackEnd Developer']}
             loop={false}
             cursor
-             skipAddStyles
+             skipAddStyles={true}
             cursorStyle='|'
             typeSpeed={70}
             deleteSpeed={50}
