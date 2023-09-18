@@ -134,22 +134,25 @@ function Contact() {
 
     return (
         <div className=" flex w-[100vw] h-full mb-28 flex-col" id="Contact"><h1 className="text-white text-[50px] w-full pl-10 max-md:text-2xl">
-             <motion.div ref={ref} initial="hidden" animate={control} variants={boxVariant}>
+             <div data-aos="fade-left"
+                         data-aos-easing="ease">
                 Contact Me
-                </motion.div>
+                </div>
         </h1>
             
             
 
             <h2 className="text-gray-500 text-[30px] w-[80%] mb-7 pl-10  max-md:text-2xl max-sm:text-lg">
-                  <motion.div ref={ref} initial="hidden" animate={control} variants={boxVariant2}>
+                  <div data-aos="fade-left"
+                         data-aos-easing="ease">
                      Questions, Thoughts, Or Just Want To Say Hello?
-                </motion.div>
+                </div>
 
             </h2>
               
             <form onSubmit={submitHandler} className="w-full flex flex-col items-center h-full">
-          <motion.div className="w-full flex flex-col items-center" ref={ref} initial="hidden" animate={control} variants={formVariant>
+          <div className="w-full flex flex-col items-center" data-aos="fade-left"
+                         data-aos-easing="ease-in-sine">
                 <input onChange={changeHandler} id="name" name="name" value={formData.name} className="flex w-[60%] max-sm:w-[90%] h-[40px] pl-6 rounded-md outline-none" required type="text" placeholder="Enter your name">
                     
                     </input>
@@ -158,7 +161,7 @@ function Contact() {
                 <br />
                  <input name="subject" onChange={changeHandler} value={formData.subject} id="subject" className="flex w-[60%] max-sm:w-[90%] h-[40px] pl-6 rounded-md outline-none" required type="text" placeholder="Subject"></input><br/>
                 <textarea onChange={changeHandler} name="message" id="message" value={formData.message} className="flex w-[60%] max-sm:w-[90%] h-[150px] pl-6 pt-2 resize-none rounded-md outline-none text-base" placeholder="Enter your message"></textarea><br />
-                 </motion.div>   <div className="flex mx-auto">
+                 </div>   <div className="flex mx-auto">
                     <motion.div ref={ref} initial="hidden" animate={control} variants={buttonVariant} className="place-content-center place-items-center max-sm:pb-7">
                     <button className="flex max-sm:w-[250px] justify-center  gap-x-4 items-center w-[300px] h-[45px] rounded-[30px] max-sm:text-xl max-sm:h-[30px] text-black bg-[#10B67A] text-2xl font-normal hover:bg-white shadow-lg shadow-emerald-400 hover:scale-110 duration-300 transition ease-in-out " >
 
