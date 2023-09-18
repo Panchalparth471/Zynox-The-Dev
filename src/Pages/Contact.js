@@ -100,9 +100,10 @@ function Contact() {
 
         translateX: '0',
         opacity: "1",
-        transition: { delay: 0.4, duration: 0.5 }
+        transition: { delay: 0.4, duration: 0.3 }
     
         }
+        
     }
 
     const buttonVariant = {
@@ -148,7 +149,7 @@ function Contact() {
             </h2>
               
             <form onSubmit={submitHandler} className="w-full flex flex-col items-center h-full">
-          <motion.div className="w-full flex flex-col items-center" ref={ref} initial="hidden" animate={control} variants={formVariant}>
+          <motion.div className="w-full flex flex-col items-center" ref={ref} initial="hidden" animate={control} variants={formVariant>
                 <input onChange={changeHandler} id="name" name="name" value={formData.name} className="flex w-[60%] max-sm:w-[90%] h-[40px] pl-6 rounded-md outline-none" required type="text" placeholder="Enter your name">
                     
                     </input>
