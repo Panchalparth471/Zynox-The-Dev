@@ -54,7 +54,7 @@ function Projects() {
           
 
                   <div data-aos="fade-up"
-            data-aos-easing="ease-in-sine" className="project-card">
+            data-aos-easing="ease-in-sine" className="project-card max-md:left-0">
              <img src= {testimonials} className="rounded-[30px]"></img>
             <div className="project-number" id="pn-r">02</div>
             <div className="flex flex-col z-5 w-full justify-between gap-10 bottom-[40%] max-[430px]:bottom-5 max-sm:gap-5 pl-24 absolute">
@@ -84,7 +84,7 @@ function Projects() {
 
 
                   <div data-aos="fade-right"
-            data-aos-easing="ease-in-sine" className="project-card ">
+            data-aos-easing="ease-in-sine" className="project-card max-md:left-0">
              <img src= {employee} className="rounded-[30px]"></img>
             <div className="project-number">04</div>
             <div className="flex flex-col z-5 w-full justify-between gap-10 bottom-[40%] max-[430px]:bottom-5  max-sm:gap-5 pl-24 absolute">
