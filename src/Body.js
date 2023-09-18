@@ -26,7 +26,7 @@ function Body() {
             </div>
 
             <div className="text-[40px] font-normal leading-normal font-sans text-white max-sm:text-[20px]" id="text2">
-                 <motion.div initial="hidden" animate="visible" variants={{
+                 <motion.div id="text2" initial="hidden" animate="visible" variants={{
                     hidden: {
                         scaleY: -1,
                         opacity: 0,
