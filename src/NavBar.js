@@ -29,7 +29,7 @@ function Navbar() {
                 }} className="hover:text-[#10B67A] max-md:hidden cursor-pointer  hover:scale-110 duration-300 transition ease-in-out">
                     <a href="#Contact">CONTACT</a></motion.div>
                 
-                <div id="box"  className={`top-0 z-[150] flex flex-col  md:hidden   ${isOpen ? ( `bg-white h-[100vh] w-[70%]`) : (`w-0 h-0`) } items-end gap-10 text-black`}>
+                <div id="box"  className={`top-0 z-[150] flex flex-col  md:hidden   ${isOpen ? ( `bg-white h-[100vh] w-[70%] p-10`) : (`w-0 h-0`) } items-end gap-10 text-black`}>
                     <Hamburger toggled={isOpen} toggle={setOpen} color="rgb(16 185 129)"/>
                 
                     {
