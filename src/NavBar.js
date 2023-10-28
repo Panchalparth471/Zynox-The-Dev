@@ -10,26 +10,26 @@ function Navbar() {
         <div className="flex text-white max-md:pr-0 bg-black bg-transparent  text-[24px] fixed w-full h-[10%] justify-end gap-10 pr-[40px] font-normal font-sans mb-5"id="text">
              <motion.div initial={{ translateX: '-100px',opacity:'0',translateY:'30px'}} animate={{translateX:'0',translateY:'0',opacity:"1",transition:{delay:0.1,duration:'0.1'}}} variants={{
                  
-                }} className="hover:text-[#10B67A] max-md:hidden  max-md:opacity-0 cursor-pointer  hover:scale-110 duration-300 transition ease-in-out">
+                }} className="hover:text-[#10B67A] max-md:hidden max-md:w-0  max-md:opacity-0 cursor-pointer  hover:scale-110 duration-300 transition ease-in-out">
                 <a href="#Home">HOME</a></motion.div>
             <motion.div initial={{ translateX: '-90px',opacity:'0',translateY:'30px'}} animate={{translateX:'0',translateY:'0',opacity:"1",transition:{delay:0.2,duration:'0.1'}}} variants={{
                  
-                }} className="hover:text-[#10B67A] max-md:hidden cursor-pointer  hover:scale-110 duration-300 transition ease-in-out">
+                }} className="hover:text-[#10B67A] max-md:hidden max-md:w-0 cursor-pointer  hover:scale-110 duration-300 transition ease-in-out">
                 <a href="#About">ABOUT ME</a></motion.div>
             <motion.div initial={{ translateX: '-80px',opacity:'0',translateY:'30px'}} animate={{translateX:'0',translateY:'0',opacity:"1",transition:{delay:0.3,duration:'0.1'}}} variants={{
                  
-                }} className="hover:text-[#10B67A] max-md:hidden cursor-pointer  hover:scale-110 duration-300 transition ease-in-out">
+                }} className="hover:text-[#10B67A] max-md:hidden max-md:w-0 cursor-pointer  hover:scale-110 duration-300 transition ease-in-out">
                 <a href="#Projects">PROJECTS</a></motion.div>
             <motion.div initial={{ translateX: '-70px',opacity:'0',translateY:'30px'}} animate={{translateX:'0',translateY:'0',opacity:"1",transition:{delay:0.4,duration:'0.1'}}} variants={{
                  
-                }} className="hover:text-[#10B67A] max-md:hidden cursor-pointer  hover:scale-110 duration-300 transition ease-in-out">
+                }} className="hover:text-[#10B67A] max-md:hidden max-md:w-0  cursor-pointer  hover:scale-110 duration-300 transition ease-in-out">
                  <a href="#Techstack">TECHSTACK</a></motion.div>
             <motion.div initial={{ translateX: '-60px',opacity:'0',translateY:'30px'}} animate={{translateX:'0',translateY:'0',opacity:"1",transition:{delay:0.5,duration:'0.1'}}} variants={{
                  
-                }} className="hover:text-[#10B67A] max-md:hidden cursor-pointer  hover:scale-110 duration-300 transition ease-in-out">
+                }} className="hover:text-[#10B67A] max-md:hidden max-md:w-0 cursor-pointer  hover:scale-110 duration-300 transition ease-in-out">
                     <a href="#Contact">CONTACT</a></motion.div>
                 
-                <div id="box"  className={`top-0 z-[150] flex flex-col  md:hidden   ${isOpen ? ( `bg-white h-[100vh] w-[70%]`) : (`w-0 h-0`) } items-end gap-10 text-black`}>
+                <div id="box"  className={`top-0 z-[150] flex flex-col   md:hidden   ${isOpen ? ( `bg-white h-[100vh] w-[70%]`) : (`w-0 h-0`) } items-end gap-10 text-black`}>
                     <Hamburger toggled={isOpen} toggle={setOpen} color="rgb(16 185 129)"/>
                 
                     {
