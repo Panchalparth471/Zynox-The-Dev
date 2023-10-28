@@ -10,7 +10,7 @@ function Navbar() {
         <div className="flex text-white max-md:pr-0 bg-black bg-transparent  text-[24px] fixed w-full h-[10%] justify-end gap-10 pr-[40px] font-normal font-sans mb-5"id="text">
              <motion.div initial={{ translateX: '-100px',opacity:'0',translateY:'30px'}} animate={{translateX:'0',translateY:'0',opacity:"1",transition:{delay:0.1,duration:'0.1'}}} variants={{
                  
-                }} className="hover:text-[#10B67A] max-md:hidden max-md:opacity-0 cursor-pointer  hover:scale-110 duration-300 transition ease-in-out">
+                }} className="hover:text-[#10B67A] max-md:hidden  max-md:opacity-0 cursor-pointer  hover:scale-110 duration-300 transition ease-in-out">
                 <a href="#Home">HOME</a></motion.div>
             <motion.div initial={{ translateX: '-90px',opacity:'0',translateY:'30px'}} animate={{translateX:'0',translateY:'0',opacity:"1",transition:{delay:0.2,duration:'0.1'}}} variants={{
                  
