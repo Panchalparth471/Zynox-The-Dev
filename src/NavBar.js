@@ -33,7 +33,7 @@ function Navbar() {
                         <a href="#Contact">CONTACT</a></motion.div>
                      </div>
                 
-                <div id="box"  className={`top-0 z-[150] flex flex-col   md:hidden   ${isOpen ? ( `bg-white h-[100vh] w-[70%]`) : (`w-0 h-0`) } items-end gap-10 text-black`}>
+                <div id="box"  className={`top-0 z-[150] flex flex-col   md:hidden   ${isOpen ? ( `bg-white h-[100vh] w-[70%]`) : (`w-0 h-screen`) } items-end gap-10 text-black`}>
                     <Hamburger toggled={isOpen} toggle={setOpen} color="rgb(16 185 129)"/>
                 
                     {
