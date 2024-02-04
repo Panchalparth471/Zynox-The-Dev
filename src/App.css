@@ -27,12 +27,13 @@ line-height: normal;
     height:550px;
     top:0;
     left: 0;
+     bottom:0;
     right:0;
     
 
-    background-size: 100%;
+    background-size:cover;
      border-radius: 30px;
-    background-repeat: no-repeat;
+
     position:relative;
   }
 
@@ -40,39 +41,35 @@ line-height: normal;
   .project-card::after{
     content:"";
     top:0;
+     bottom:0;
     left: 0;
     right:0;
 
      position:absolute;
-       height:550px;
-      background-size: cover;
+
      border-radius: 30px;
     z-index:0;
  
   }
    .project-card::before{
     content:"";
-    top:0;
-    left: 0;
-    right:0;
-
     position:absolute;
-     background-size: 100%;
-     height:550px;
-     border-radius: 30px;
-    z-index:1;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
  background: linear-gradient(45deg, #333537, #383738be, #3d3d3f);
 
-    transform:scaleX(0);
+   transform:scaleX(0);
     transform-origin: left;
     transition: all 0.4s;
- 
+    z-index:1;
   }
 
 
   .project-card:hover::before{
     transform:scaleX(1);
-     background-size: 100%;
+  
      border-radius: 30px;
   }
 
